@@ -1,20 +1,32 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+    <!-- Define o tipo de documento como HTML5 -->
     <meta charset="UTF-8">
+    <!-- Define que a página deve ser responsiva para diferentes tamanhos de tela -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Importa um arquivo CSS externo para estilização -->
     <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- Define o título da página, que aparece na aba do navegador -->
     <title>Escolha uma Cor App</title>
 </head>
 <body>
+    <!-- Título principal da página -->
     <h1>Clique em uma Cor: </h1>
+
+    <!-- O elemento 'main' representa o conteúdo principal da página -->
     <main>
+        <!-- Contêiner para organizar o conteúdo -->
         <div class="container">
-          <h2>Sua Cor : <span class="color"></span></h2>
-          <button class="btn btn-hero" id="btn">MUDAR DE COR </button>
+            <!-- Exibe a cor escolhida dinamicamente -->
+            <h2>Sua Cor : <span class="color"></span></h2>
+            <!-- Botão que dispara o evento de mudança de cor ao ser clicado -->
+            <button class="btn btn-hero" id="btn">MUDAR DE COR</button>
         </div>
-      </main>
+    </main>
+
+    <!-- Importa um arquivo JavaScript externo para lógica de mudança de cor -->
     <script src="index.js"></script>
-    
+
 </body>
 </html>
